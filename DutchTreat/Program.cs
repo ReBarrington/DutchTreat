@@ -20,7 +20,6 @@ namespace DutchTreat
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    // boilerplate: Startup is base class
                     webBuilder.UseStartup<Startup>();
                 });
     }
